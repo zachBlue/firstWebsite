@@ -1,0 +1,158 @@
+h1 {
+  font-family: arial;
+  text-align: center;
+  color: #525252;
+}
+h4 {
+  font-family: arial;
+  text-align: center;
+  color: #525252;
+}
+.button {
+ background-color: #55d9d4;
+ border-radius: 50%;
+ font-size: 16px;
+ color: #525252;
+ font-family: arial;
+ padding: 60px 10px;
+ text-decoration: none;
+ cursor: pointer;
+ position: absolute;
+ margin-top: -60;
+ left: 90;
+}
+.button:hover {
+ background-color: Orange;
+ padding: 70px 20px;
+ position: absolute;
+ margin-left: -10;
+ margin-top: -70;
+}
+.button2 {
+ background-color: #55d9d4;
+ border-radius: 50%;
+ font-size: 16px;
+ color: #525252;
+ font-family: arial;
+ padding: 60px 10px;
+ text-decoration: none;
+ cursor: pointer;
+ position: absolute;
+ margin-top: -60;
+ right: 90;
+}
+.button2:hover {
+ background-color: Orange;
+ padding: 70px 20px;
+ position: absolute;
+ margin-right: -10;
+ margin-top: -70;
+}
+.button3 {
+ background-color: #55d9d4;
+ border-radius: 50%;
+ font-size: 16px;
+ color: #525252;
+ font-family: arial;
+ padding: 60px 9px;
+ text-decoration: none;
+ cursor: pointer;
+ position: absolute;
+ margin-top: 180;
+ left: 88;
+}
+.button3:hover {
+ background-color: Orange;
+ padding: 70px 20px;
+ position: absolute;
+ margin-left: -11;
+ margin-top: 170;
+}
+.button4 {
+ background-color: #55d9d4;
+ border-radius: 50%;
+ font-size: 16px;
+ color: #525252;
+ font-family: arial;
+ padding: 60px 9px;
+ text-decoration: none;
+ cursor: pointer;
+ position: absolute;
+ right: 86;
+ margin-top: 180;
+}
+.button4:hover {
+ background-color: Orange;
+ padding: 70px 20px;
+ position: absolute;
+ margin-right: -11;
+ margin-top: 170;
+}
+#home {
+ position: absolute;
+ margin-left: 116;
+ margin-top: -32;
+ color: #525252;
+}
+#rect {
+  background-color: #525252;
+  width: 472px;
+  height: 10px;
+  position: absolute;
+  margin-top: 100;
+}
+#rect2 {
+  background-color: #525252;
+  width: 472px;
+  height: 10px;
+  position: absolute;
+  margin-top: 150;
+}
+#rect3 {
+  background-color: #525252;
+  width: 213px;
+  height: 25px;
+  position: absolute;
+  margin-top: 118;
+}
+#rect4 {
+  background-color: #525252;
+  width: 217px;
+  height: 25px;
+  position: absolute;
+  margin-top: 118;
+  margin-left: 255;
+}
+#triangle {
+	width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+	border-left: 30px solid #525252;
+	border-bottom: 25px solid transparent;
+	position: absolute;
+	margin-top: 118;
+	margin-left: 213;
+}
+#triangle2 {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 30px solid #525252;
+	border-bottom: 0px solid transparent;
+	position: absolute;
+	margin-top: 118;
+	margin-left: 225;
+}
+
+#bio {
+  color: #525252;
+  position: absolute;
+  margin-left: 40;
+  margin-right: 40;
+}
+#abt {
+ color: #525252;
+ position: absolute;
+ margin-left: 116;
+ margin-top: -25;
+}
