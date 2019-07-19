@@ -51,6 +51,7 @@ h4 {
  padding: 60px 10px;
  text-decoration: none;
  cursor: pointer;
+ transition: background-color .5s ease-in-out;
 }
 .button:hover {
  background-color: orange;
@@ -96,10 +97,32 @@ h4 {
   position: absolute;
   margin-left: 40;
   margin-right: 40;
+  font-size: 120%;
 }
-#abt {
+.aboutContainer{
+  width: 80%;
+  margin: auto;
+}
+#bioFE {
+  color: #525252;
+  position: absolute;
+  margin-left: 40;
+  margin-right: 40;
+  font-size: 120%;
+  text-align: center;
+}
+
+.cpButton {
+ background-color: #55d9d4;
+ border-radius: 50%;
+ font-size: 16px;
  color: #525252;
- position: absolute;
- margin-left: 116;
- margin-top: -25;
+ font-family: arial;
+ padding: 60px 12px;
+ text-decoration: none;
+ cursor: pointer;
+ transition: background-color .5s ease-in-out;
+}
+.cpButton:hover {
+ background-color: orange;
 }
