@@ -7,6 +7,13 @@ h1 {
   text-align: center;
   color: #525252;
 }
+h2 {
+  font-size: 285%;
+  font-family: arial;
+  text-align: center;
+  color: #525252;
+}
+
 #top {
   display: flex;
   background-color: #525252;
@@ -53,8 +60,10 @@ h4 {
  cursor: pointer;
  transition: background-color .5s ease-in-out;
 }
-.button:hover {
+.button:hover{
  background-color: orange;
+ transform: scale(1.2);
+ transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);;
 }
 
 #rect {
@@ -124,4 +133,6 @@ h4 {
 }
 .cpButton:hover {
  background-color: orange;
+ transform: scale(1.2);
+ transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);;
 }
