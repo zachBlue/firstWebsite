@@ -7,11 +7,36 @@ h1 {
   text-align: center;
   color: #525252;
 }
-h2 {
+h3 {
   font-size: 285%;
   font-family: arial;
   text-align: center;
-  color: #525252;
+  color: orange;
+}
+
+p {
+  text-align: center;
+}
+
+#machuPicchu{
+  background-image: url("https://lonelyplanetwpnews.imgix.net/2018/10/macchu-picchu.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 60%;
+}
+
+#yosemite{
+  background-image: url("https://media1.s-nbcnews.com/i/newscms/2018_27/1351011/travel-guide-yosemite-travel-today-180705-tease_bbf2e1a9036830ef174ce52a8438585e.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 60%;
+}
+
+#seaStack{
+  background-image: url("http://patricksmithphotography.com/blog/wp-content/uploads/2015/05/070211-2361-GarrapataStacks.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 60%;
 }
 
 #top {
@@ -63,7 +88,7 @@ h4 {
 .button:hover{
  background-color: orange;
  transform: scale(1.2);
- transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);;
+ transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 #rect {
@@ -135,4 +160,29 @@ h4 {
  background-color: orange;
  transform: scale(1.2);
  transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);;
+}
+
+.buttonAbt {
+ background-color: #55d9d4;
+ border-radius: 50%;
+ font-size: 16px;
+ color: #525252;
+ font-family: arial;
+ padding: 45px 12px;
+ text-decoration: none;
+ cursor: pointer;
+ transition: background-color .5s ease-in-out;
+}
+.buttonAbt:hover {
+ background-color: orange;
+ transform: scale(1.2);
+ transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);;
+}
+
+#lery {
+  display: flex;
+  background-color: orange;
+  width: 60%;
+  height: 3px;
+  margin-top: -1%;
 }
