@@ -83,12 +83,11 @@ h4 {
  padding: 60px 10px;
  text-decoration: none;
  cursor: pointer;
- transition: background-color .5s ease-in-out;
+ transition: 1s;
 }
 .button:hover{
  background-color: orange;
  transform: scale(1.2);
- transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 #rect {
@@ -154,12 +153,11 @@ h4 {
  padding: 60px 12px;
  text-decoration: none;
  cursor: pointer;
- transition: background-color .5s ease-in-out;
+ transition: 1s;
 }
 .cpButton:hover {
  background-color: orange;
  transform: scale(1.2);
- transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);;
 }
 
 .buttonAbt {
@@ -171,12 +169,11 @@ h4 {
  padding: 45px 12px;
  text-decoration: none;
  cursor: pointer;
- transition: background-color .5s ease-in-out;
+ transition: 1s;
 }
 .buttonAbt:hover {
  background-color: orange;
  transform: scale(1.2);
- transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);;
 }
 
 #lery {
